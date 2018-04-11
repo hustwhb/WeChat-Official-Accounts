@@ -1,1 +1,1 @@
-ngrok -config ngrok.cfg -subdomain=725lm 64370
+ngrok -config ngrok.cfg -subdomain=hbwan 80
