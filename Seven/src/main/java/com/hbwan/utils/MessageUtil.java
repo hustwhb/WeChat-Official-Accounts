@@ -1,5 +1,10 @@
 package com.hbwan.utils;
-
+/** 
+ * 消息工具类 
+ *  
+ * @author hbwan
+ * @date 2018-04-11
+ */  
 
 import java.io.InputStream;  
 import java.io.Writer;  
@@ -23,12 +28,7 @@ import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;  
 import com.thoughtworks.xstream.io.xml.XppDriver;  
   
-/** 
- * 消息工具类 
- *  
- * @author liufeng 
- * @date 2013-05-19 
- */  
+
 public class MessageUtil {  
   
     /** 
@@ -169,7 +169,7 @@ public class MessageUtil {
                 // 对所有xml节点的转换都增加CDATA标记  
                 boolean cdata = true;  
   
-                public void startNode(String name, Class clazz) {  
+                public void startNode(String name, @SuppressWarnings("rawtypes") Class clazz) {  
                     super.startNode(name, clazz);  
                 }  
   

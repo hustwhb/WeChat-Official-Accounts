@@ -7,8 +7,8 @@ package com.hbwan.utils;
  /**
  * 请求校验工具类
  *
- * @author liufeng
- * @date 2013-05-18
+ * @author hbwan
+ * @date 2018-04-11
  */
  public class SignUtil {
  // 与接口配置信息中的Token 要一致

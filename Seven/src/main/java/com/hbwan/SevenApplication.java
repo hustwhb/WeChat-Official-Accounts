@@ -1,5 +1,10 @@
 package com.hbwan;
-
+/**
+* 启动类
+*
+* @author hbwan
+* @date 2018-04-11
+*/
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
