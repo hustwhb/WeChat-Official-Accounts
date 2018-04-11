@@ -1,1 +1,1 @@
-./ngrok -config ngrok.cfg start 725lm
+nohup ./ngrok -config ngrok.cfg start 725lm  > ngrok.log 2>&1 &
