@@ -1,0 +1,10 @@
+http://www.tunnel.mobi/
+
+在CMD命令中先切换到ngrok所在的位置再进行如下操作
+方法一：ngrok 8080（该方法已被和谐掉了）
+
+方法二：ngrok -config ngrok.cfg -subdomain 725lm 80
+
+说明：
+725lm-自己任意设置；
+80-tomcat的端口号

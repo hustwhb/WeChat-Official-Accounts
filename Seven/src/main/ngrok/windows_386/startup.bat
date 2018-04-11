@@ -1,0 +1,1 @@
+ngrok -config ngrok.cfg -subdomain=725lm 64370
