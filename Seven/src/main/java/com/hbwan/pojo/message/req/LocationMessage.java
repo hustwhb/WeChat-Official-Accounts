@@ -3,8 +3,8 @@ package com.hbwan.pojo.message.req;
 /**
  * 地理位置消息
  * 
- * @author liufeng
- * @date 2013-05-19
+ * @author hbwan
+ * @date 2018-04-12
  */
 public class LocationMessage extends BaseMessage {
 	// 地理位置维度

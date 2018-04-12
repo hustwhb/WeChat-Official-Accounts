@@ -3,8 +3,8 @@ package com.hbwan.pojo.message.req;
 /**
  * 图片消息
  * 
- * @author liufeng
- * @date 2013-05-19
+ * @author hbwan
+ * @date 2018-04-12
  */
 public class ImageMessage extends BaseMessage {
 	// 图片链接

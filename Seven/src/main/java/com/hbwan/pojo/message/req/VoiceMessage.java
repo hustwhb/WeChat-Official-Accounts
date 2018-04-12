@@ -3,8 +3,8 @@ package com.hbwan.pojo.message.req;
 /**
  * 音频消息
  * 
- * @author liufeng
- * @date 2013-05-19
+ * @author hbwan
+ * @date 2018-04-12
  */
 public class VoiceMessage extends BaseMessage {
 	// 媒体ID

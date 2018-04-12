@@ -3,8 +3,8 @@ package com.hbwan.pojo.message.req;
  /**
  * 消息基类（普通用户-> 公众帐号）
  *
- * @author liufeng
- * @date 2013-05-19
+ * @author hbwan
+ * @date 2018-04-12
  */
  public class BaseMessage {
  // 开发者微信号

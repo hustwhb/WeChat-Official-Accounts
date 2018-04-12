@@ -3,8 +3,8 @@ package com.hbwan.pojo.message.resp;
 /**
  * 音乐model
  * 
- * @author liufeng
- * @date 2013-05-19
+ * @author hbwan
+ * @date 2018-04-12
  */
 public class Music {
 	// 音乐名称

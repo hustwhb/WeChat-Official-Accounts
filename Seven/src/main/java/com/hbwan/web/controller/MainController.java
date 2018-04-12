@@ -61,7 +61,7 @@ public class MainController {
      */
 	@RequestMapping(value="/coreServlet",produces="application/json;charset=UTF-8",method=RequestMethod.POST)
 	@ResponseBody
-	public void coreServletPOST(HttpServletRequest request,HttpServletResponse response) throws IOException {
+	public String coreServletPOST(HttpServletRequest request,HttpServletResponse response) throws IOException {
 				// 微信加密签名
 		// 将请求、响应的编码均设置为UTF-8（防止中文乱码）  
 	    request.setCharacterEncoding("UTF-8");  
@@ -69,11 +69,9 @@ public class MainController {
 
 	    // 调用核心业务类接收消息、处理消息  
 	    String respMessage = coreService.processRequest(request);  
-	      
-	    // 响应消息  
-	    PrintWriter out = response.getWriter();  
-	    out.print(respMessage);  
-	    out.close(); 
+
+	    // 响应消息  	      
+	    return respMessage;
 	}
 	
 	@RequestMapping(value="/test",produces="application/json;charset=UTF-8",method=RequestMethod.POST)

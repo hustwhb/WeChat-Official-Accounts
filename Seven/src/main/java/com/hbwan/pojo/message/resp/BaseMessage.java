@@ -3,8 +3,8 @@ package com.hbwan.pojo.message.resp;
 /**
  * 消息基类（公众帐号 -> 普通用户）
  * 
- * @author liufeng
- * @date 2013-05-19
+  * @author hbwan
+ * @date 2018-04-12
  */
 public class BaseMessage {
 	// 接收方帐号（收到的OpenID）
